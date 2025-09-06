@@ -4,10 +4,6 @@
 
 Just change `src/portfolio.js` to get your personal portfolio. Customize portfolio theme by using your own color scheme globally in the  `src/_globalColor.scss` file. Feel free to use it as-is or personalize it as much as you want.
 
-If you'd like to **contribute** and make this much better for other users, have a look at [Issues](https://github.com/EshwarCVS/EshwarCVS.github.io/issues).
-
-Created something awesome for your fork of the portfolio and want to share it? Feel free to open a [pull request](https://github.com/EshwarCVS/EshwarCVS.github.io/pulls).
-
 ## Table of Contents
 - [Sections](#sections)
 - [Getting Started](#getting-started)
@@ -58,10 +54,10 @@ From your command line, clone and run portfolio:
 
 ```bash
 # Clone this repository
-git clone https://github.com/EshwarCVS/EshwarCVS.github.io.git
+git clone https://github.com/Ravikanth22/Ravikanth22.github.io.git
 
 # Go into the repository
-cd EshwarCVS.github.io
+cd Ravikanth22.github.io
 
 # Setup default environment variables
 
@@ -85,25 +81,25 @@ npm start
 /* Change this file to get your Personal Porfolio */
 
 const greeting = {
-  username: "Eshwar Chandra Vidhyasagar Thedla",
-  title: "Hi all, I'm Eshwar",
+  username: "Ravikanth Reddy Kondreddy",
+  title: "Hi all, I'm Ravikanth Reddy",
   subTitle: emoji(
-    "Hello! I’m Eshwar, a Software Developer II at United Wholesale Mortgage, where I specialize in building scalable microservices and enhancing user experience. With expertise in C#, Kafka, Azure CosmosDB, and Redis, I create high-performance solutions that streamline data flows and improve reliability."
+    "a Software Engineer with experience in building scalable, high-performance applications using Java, Python, Django, Spring Boot, React.js, and cloud technologies. Skilled in microservices, distributed systems, API development, and database optimization. Proven track record of improving system performance, ensuring reliability, and delivering projects on time in fast-paced environments"
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1KoSpTt4_62aTJN3Mm1q2bzAqTD2gz8eP/view?usp=sharing", // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
+
 const socialMediaLinks = {
-  github: "https://github.com/EshwarCVS",
-  linkedin: "https://www.linkedin.com/in/eshwarchandravidhyasagar/",
-  gmail: "thedlaeshwar@gmail.com",
-  stackoverflow: "https://stackoverflow.com/users/9686522/eschvisa",
+  github: "https://github.com/Ravikanth22",
+  linkedin: "https://www.linkedin.com/in/ravi0322/",
+  gmail: "email2ravikanth@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
+
 
 
 const skillsSection = { .... }
@@ -160,8 +156,6 @@ The Profile and the Repository information from GitHub is only created at the ti
 #### Deploying to GitHub Pages
 
 This section guides you to deploy your portfolio on GitHub pages.
-
-- Navigate to `package.json` and enter your domain name instead of `https://eshwarcvs.github.io/` in `homepage` variable. For example, if you want your site to be `https://<your-username>.github.io/`, add the same to the homepage section of `package.json`.
 
 - Optionally, configure the domain. You can configure a custom domain with GitHub Pages by adding a `CNAME` file to the `public/` folder.
 
